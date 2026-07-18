@@ -63,7 +63,7 @@ public class RPG {
           	score += i * 100 / (move - 1);
 
             if(player.hp <= 0) {
-                System.out.println("Oopsy Poopsy 💩! You lost...");
+                System.out.println("Oops! You lost...");
               	System.out.println("You died on round " + i + ".");
               	break;
             } else if(enemy.hp <= 0) {
